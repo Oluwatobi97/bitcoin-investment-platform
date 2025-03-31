@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "buildCommand": "cd bitcoin-app-backend && npm install",
+  "outputDirectory": "bitcoin-app-backend",
+  "installCommand": "cd bitcoin-app-backend && npm install",
+  "framework": "nodejs"
+} 
