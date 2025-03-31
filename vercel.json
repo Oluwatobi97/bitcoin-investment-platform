@@ -1,7 +1,13 @@
 {
   "version": 2,
-  "buildCommand": "cd bitcoin-app-backend && npm install",
-  "outputDirectory": "bitcoin-app-backend",
-  "installCommand": "cd bitcoin-app-backend && npm install",
-  "framework": "nodejs"
+  "buildCommand": "cd bitcoin-app && npm install && npm run build",
+  "outputDirectory": "bitcoin-app/dist",
+  "installCommand": "cd bitcoin-app && npm install",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 } 
