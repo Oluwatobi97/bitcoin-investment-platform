@@ -9,14 +9,5 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ],
-  "builds": [
-    {
-      "src": "bitcoin-app/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
-    }
   ]
 } 
